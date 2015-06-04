@@ -1,2 +1,4 @@
 bin_PROGRAMS = automake-test
-automake_test_SOURCES = main.c
+AM_CPPFLAGS = -I$(srcdir)/include
+
+automake_test_SOURCES = main.cc func.cc
