@@ -8,5 +8,6 @@ int main (void)
     std::cout << "Hello World!" << std::endl;
     std::cout << "This is " << PACKAGE_STRING << "." << std::endl;
     show();
+    getchar();
     return 0;
 }

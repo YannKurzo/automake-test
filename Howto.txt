@@ -1,0 +1,10 @@
+From cygwin on Windows
+-------------------------
+
+-	Configure with mingw32 compiler and link the C and C++ libraries statically:
+
+	configure CXX=x86_64-w64-mingw32-g++ CXXFLAGS="-static-libgcc -static-libstdc++"
+
+-	To check the used libraries:
+
+	objdump -p executable | grep "DLL Name"
