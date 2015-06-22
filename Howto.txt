@@ -8,3 +8,11 @@ From cygwin on Windows
 -	To check the used libraries:
 
 	objdump -p executable | grep "DLL Name"
+
+-	Error: "$'\r': command not found" (see http://chess.eecs.berkeley.edu/softdevel/faq/5.html)
+
+	Create "~/.bash_profile"
+	Add at the end:
+		export SHELLOPTS
+		set -o igncr
+	Exit and open cygwin
