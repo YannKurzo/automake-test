@@ -16,3 +16,9 @@ From cygwin on Windows
 		export SHELLOPTS
 		set -o igncr
 	Exit and open cygwin
+
+
+Autotool help
+-------------------------
+
+-	http://www.seul.org/docs/autotut/
